@@ -1,6 +1,9 @@
 $(document).ready(function() {
-  
+    
+    $('.proj-num').addClass('animated fadeInUp');
+    $('.info ul li').addClass('animated fadeInUp');
     $('.info-1 .proj-line').addClass('extend');
+    $('.proj').addClass('animated fadeInRight');
                   
 });   
 
@@ -59,6 +62,8 @@ if ( $(window).width() > 769) {
         $(".info-4 ul li").css( "color", "lightgrey" );
         $(".info-4 ul li a").css( "color", "lightgrey" ); 
         $(".proj-4").css("display","none");
+        
+        
         
         if ($('.info-1 .proj-line').hasClass("extend")){
            $(".info-1 .proj-line").addClass("descend"); 

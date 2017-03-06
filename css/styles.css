@@ -180,10 +180,9 @@ h5 {
     text-align: center;
     font-weight: 500;
     padding: 0;
-    margin: 0;
+    margin: 40px 0px 0px 0px;
 }
-  
-    
+     
 .shadow img {
      box-shadow: 0px 0px 15px #999999;   
 }
@@ -298,6 +297,10 @@ h5 {
     margin-bottom: 100px;
 }
 
+.demo p {
+    text-align: center;
+}
+
 .product {
     padding: 100px 0px;
     margin-bottom: 100px;
@@ -308,7 +311,25 @@ h5 {
 }
 
 .product p, .product h5 {
+    text-align: center;
     color: white;
+}
+
+.product p {
+    margin-bottom: 50px;
+}
+
+.screen {
+    margin-bottom: 100px;
+}
+
+.screen.grey {
+    padding: 50px 5px;
+}
+
+.sub-head {
+    margin-top: 15px;
+    margin-bottom:50px;
 }
 
 /* Moogfest */
@@ -464,6 +485,14 @@ h1 {
      
 /* Atmosphere */
 
+.product h5 {
+    text-align: left;
+}     
+    
+.demo p{
+    text-align: left;
+}    
+    
 .red {
     background-color: #FC1E46;
 }
@@ -491,9 +520,13 @@ h1 {
 }
 
 .product p {
-    color: white;
+    text-align: left;
 }    
-      
+    
+.product .proj-link-2 {
+    left: 0;
+}    
+    
 .prev {
     margin-left: 50px;    
 } 
@@ -760,11 +793,7 @@ h5 {
     margin-top: 100px;
     margin-bottom: 150px;
 }
-    
-.push {
-    margin-bottom: 50px;
-}
-     
+      
 .proj-callout {
     margin-bottom: -0px;
 }    
@@ -782,9 +811,10 @@ h5 {
     margin-bottom: 150px;
 }
     
-    .screen {
-        margin-bottom: 200px;
-    }
+.sub-head {
+    margin-top: 15px;
+    margin-bottom:150px;
+}    
     
 /* Moogfest */    
     
@@ -824,11 +854,11 @@ h4 {
     margin-top: 10px;
 }    
     
-.about {
-    margin: 200px 0px;
+.row.about {
+    margin: 200px 0;
     padding: 0;
-}  
-    
+}    
+      
 .about p {
     padding: 0;
     margin-top: 0;
@@ -836,6 +866,7 @@ h4 {
     
 .credits {
     margin-top: 0;
+    padding: 0;
 }  
     
 .skills ul, .experience ul {
@@ -843,7 +874,7 @@ h4 {
 } 
     
 .skills {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }    
        
 }
