@@ -1,0 +1,517 @@
+/* 
+
+Aaron Mohr 
+Portfolio Site
+v1.0
+
+*/
+
+body, html {
+    font-family: 'Neutrif Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: opacity 400ms;
+    -moz-transition: opacity 400ms;
+    transition: opacity 400ms;
+}
+
+body#about, html#about, body#project, html#project {
+    height: 100%;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    z-index: 100;
+    margin: 0;
+    height: 90px;
+    top: -0;
+    background-color: white;
+    width: 100%;
+}
+
+nav a {
+    color: black;
+}
+
+nav ul {
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 11pt;
+    font-weight: 400;
+}
+
+main {
+    margin: 0px 30px;
+}
+
+p {
+    font-size: 14pt;
+    line-height: 30px;
+}    
+
+.row {
+    margin: 0;    
+}    
+    
+img {
+    width: 100%;
+    height: auto;
+} 
+
+/* Project Preview */
+
+.home {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: 35px;
+    top: 35px;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+h2, h3, h4, h6 {
+    text-align: center;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 35pt;
+    font-weight: 600;
+    margin: 60px 0px 10px 0px;
+}
+
+h2 {
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+h3 {
+    color: black;
+    font-size: 12pt;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+h5 {
+    font-size: 16pt;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h6 {
+    padding: 0;
+    margin: 0;
+    font-size: 30pt;
+    font-weight: 500;
+}
+
+.btn {
+    margin: 50px auto;
+    padding: 5px 0px;
+    width: 175px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px #999999;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+.btn-text {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+/* About Page */
+
+.about {
+    color: black;
+    margin: 100px 0px 50px 0px;
+    font-size: 17pt;
+    font-weight: 500;
+    line-height: 28pt;
+}
+
+.skill {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skill li {
+    margin-bottom: 10px;
+}
+
+.sub  {
+    color: gray;
+    font-size: 10pt;
+    margin-bottom: 15px;
+}
+
+.skills {
+    width: 50%;
+    float: left;
+}
+
+.experience {
+    width: 50%;
+    float: right;
+}
+
+/* Project Pages */
+
+.info {
+    font-size: 10pt;
+    font-weight: 400;
+    color: lightgray;
+    line-height: 18px;
+}
+
+.info-num {
+    display: none;
+}
+
+.proj-link {
+    color: #555555;
+}
+
+.proj-link:hover {
+    color: #888888; 
+}
+
+.heading {
+    margin-top: 150px;
+}
+    
+.description {
+    margin-bottom: 150px;
+}
+   
+.image {
+    margin-bottom: 50px;
+} 
+
+.image.grey {
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 150px 0px 0px 0px;
+}
+
+.image.rosy {
+    background-color: #FFF3F8;
+    margin-bottom: 0px;
+}
+
+.image.rosy.cover {
+    background-color: #FFF3F8;
+    margin-bottom: 0px;
+    padding: 100px 0px;
+}
+    
+.shadow img {
+     box-shadow: 0px 0px 15px #999999;   
+}
+   
+footer {
+    padding: 40px 0px;
+}  
+
+footer a {
+    font-size: 12pt;
+    color: #151515;
+}
+
+.prev {
+    margin-left: 40px;    
+} 
+    
+.next {
+    display: inline;
+    float: right;
+    margin-right: 40px;
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 40em){
+ 
+/* Home Page */    
+   
+nav {
+    background-color: RGBA(0,0,0,0);
+} 
+    
+.nav-line {
+    position: fixed;
+    top: 55px;
+    left: 18%;
+    width: 200px;
+    height: 1px;
+    background-color: black;
+}    
+    
+.home {
+    left: 50px;
+    top: 50px;
+}
+   
+.element {
+    font-size: 60pt;
+}     
+   
+.project {
+    float: left;
+}    
+    
+h1, h2, h3, h6 {
+    text-align: left;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50pt;
+}
+
+h2 {
+    margin-left: 0px;
+    font-size: 14pt;
+    font-weight: 400;
+}
+    
+h6 {
+    font-size: 5vw;
+}
+   
+.btn {;
+    margin: 40px 0px 0px 0px;
+}
+    
+/* About Page */
+      
+.about-nav {
+    height: 0;
+}    
+    
+.about-left {
+    width: 70%;
+    float: left;
+}       
+
+.about-right {
+    width: 30%;
+    float: right;
+}
+    
+.about {
+    font-weight: 500;
+    margin: 150px 0px 0px 30px;
+    font-size: 32pt;
+    line-height: 40pt;
+}
+    
+.skills {
+    float: none;
+    margin: 170px 0px 0px 60px;
+}    
+
+.experience {
+    float: none;
+    margin: 50px 50px 50px 60px;
+}  
+    
+.links {
+    margin: 50px 0px 0px 30px;
+    padding: 0;
+    list-style: none;
+}    
+
+.links li {
+    font-size: 18pt;
+    display: inline-block;
+    margin-right: 60px;
+} 
+    
+/* Project Pages */
+    
+
+          
+/* Desktop Styles */
+
+@media only screen and (min-width: 64em){
+      
+main {
+    margin: 0;
+}  
+       
+p {
+    font-size: 16pt;
+    line-height: 35px;
+}
+    
+h1, h2, h3, h6 {
+    text-align: left;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 35pt;
+}
+    
+h2 {
+    font-size: 12pt;
+    margin-top: 10px;
+}
+    
+h6 {
+    font-size: 3vw;
+}
+    
+#project-menu {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+}
+    
+#project-names {
+    margin-top: 200px;
+}    
+
+#project-menu ul {
+    padding: 0;
+    list-style: none;
+    margin: 25px 50px 0px 50px;
+    font-size: 14pt;
+    font-weight: 400;
+    color: lightgray;
+}
+
+#project-menu ul li {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+#project-menu ul li:nth-child(1){
+    float: left;
+    margin-right: 50px;
+}    
+    
+#project-menu ul li {
+    font-size: 16pt;
+}
+    
+#project-menu ul li a {
+    color: lightgray;
+}    
+    
+#project-menu ul li:nth-child(3) {
+    font-size: 11pt;
+    margin: 10px 5px 0px 75px;
+}
+    
+.proj-1 li.active {
+    color: black;
+}    
+  
+.line {
+    float: left;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 25px;
+    height: 1px;
+    background-color: black;
+}
+                
+.proj-1 {
+    width: 80%;
+    margin: 0px auto;
+}    
+        
+/* About Page */
+   
+.about-nav {
+    height: 0;
+}    
+    
+.about-left {
+    width: 70%;
+    float: left;
+}       
+
+.about-right {
+    width: 30%;
+    float: right;
+}
+    
+.about {
+    font-weight: 500;
+    margin: 220px 0px 0px 120px;
+    font-size: 40pt;
+    line-height: 55pt;
+}
+    
+.skills {
+    float: none;
+    margin: 230px 0px 0px 60px;
+}    
+
+.experience {
+    float: none;
+    margin: 50px 50px 50px 60px;
+}  
+    
+.links {
+    margin: 50px 0px 0px 120px;
+    padding: 0;
+    list-style: none;
+}    
+
+.links li {
+    font-size: 18pt;
+    display: inline-block;
+    margin-right: 60px;
+} 
+    
+/* Project Pages */
+   
+.image {
+    margin-bottom: 150px;
+}  
+    
+.image.last {
+    padding-bottom: 50px;
+}
+    
+.line-2 {
+    height: 1px;
+    background-color: lightgray;
+} 
+    
+.info-num {
+    display: inline-block;
+    text-align: right;
+}
+    
+.info {
+    font-size: 12pt;
+}

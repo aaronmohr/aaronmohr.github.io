@@ -1,0 +1,849 @@
+/* 
+
+Aaron Mohr 
+Portfolio Site
+v1.0
+
+*/
+
+body, html {
+    font-family: 'Neutrif Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: opacity 400ms;
+    -moz-transition: opacity 400ms;
+    transition: opacity 400ms;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    font-size: 12pt;
+}
+
+nav {
+    display: block;
+    padding: 45px 0px;
+}
+
+nav a {
+    color: black;
+}
+
+nav ul {
+    position: absolute;
+    right: 35px;
+    top: 35px;
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+    font-weight: 400;
+    z-index: 100;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    margin: 0px 35px;
+}
+
+       
+img {
+    width: 100%;
+    height: auto;
+} 
+
+p {
+    font-size: 13pt;
+    line-height: 32px; 
+}
+
+.contact {
+    padding: 0;
+    margin: 100px 0px 50px 0px;
+    bottom: 20px;
+    left: 40px;
+}  
+    
+.contact ul {
+    text-align: center;
+    padding: 0;
+    color: black;
+}    
+    
+.contact ul li {
+    font-size: 12pt;
+    margin-bottom: 12px;
+}
+    
+.contact ul li a {
+    color: black;
+}
+    
+.contact ul li a:hover {
+    color: gray;
+}
+
+/* Projects */
+
+.proj {
+    margin-bottom: 5px;
+}
+
+.info ul {
+    margin: 25px 0px;
+    padding: 0;
+}
+
+.info ul li {
+    display: inline-block;
+}
+
+.info ul li a {
+    color: black;
+}
+
+.proj-num {
+    margin-left: 35px;
+    margin-right: 25px;
+}
+
+.proj-line {
+    width: 35px;
+    margin-bottom: 5px;
+    height: 1px;
+    background-color: black;
+}
+
+.info ul li:nth-child(3){
+    float: right;
+    margin-right: 35px;
+}
+
+.info {
+    margin-bottom: 50px;
+}
+
+.proj-1 {
+    background-color: #F1F1F1;
+    padding: 50px 0px;
+}
+
+.proj-2 {
+    background-color: #FC1E46;
+    padding: 75px 50px;
+}
+
+.proj-3 {
+    background-image: url(../img/moogfest/moogfest-gradient-4.png);
+    background-size: cover;
+    background-position: bottom;
+    padding: 60px 50px; 
+}
+
+.proj-4 {
+    padding: 30px 0px;
+    background-color: #FFF3F8;
+}
+
+/* Project Page */
+
+h1 {
+    margin: 25px 0 15px 0px;
+    padding: 0;
+    font-size: 24pt;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 14pt;
+    font-weight: 400;
+    color: #8C8C8C;
+}
+
+h3 {
+    font-size: 12pt;
+    font-weight: 400;
+    text-align: center;
+    color: gray;
+}
+
+h5 {
+    font-size: 18pt;
+    text-align: center;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+  
+    
+.shadow img {
+     box-shadow: 0px 0px 15px #999999;   
+}
+
+.shadow-2 img {
+     box-shadow: 0px 0px 15px RGBA(0,0,0,.3);   
+}
+
+.row {
+    margin: 0;
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.sub-title {
+    color: lightgray;
+    margin: 0px 0px;
+    padding: 0;
+    font-size: 11pt;
+}
+
+.proj-intro {
+    margin-bottom: 25px;
+}
+
+.proj-intro p {
+    margin-top: 40px;
+}
+
+.proj-link {
+    border: 1px lightgray solid;
+    color: lightgray;
+    padding: 10px 50px;
+}
+
+.proj-link:hover {
+    border-color: #8C8C8C;
+    color: #8C8C8C;
+    transition: .5s ease-in-out;
+}
+
+.proj-link-2 {
+    border: 1px white solid;
+    color: white;
+    padding: 10px 50px;
+}
+
+.proj-link-2:hover {
+    border-color: lightgrey;
+    color: lightgrey;
+    transition: .5s ease-in-out;
+}
+
+.description {
+    margin-bottom: 100px;
+}
+
+.bottom {
+    padding-bottom: 50px;
+}
+
+.top {
+    padding-top: 100px;
+}
+
+/* Wanze */
+
+.grey {
+    background-color: #FAFAFA;
+    padding: 0px 0px 100px 0px;
+}
+
+.grey.top {
+    padding: 100px 0px 100px 0px;
+}
+
+.intro-grey {
+    background-color: #FAFAFA;
+    margin: 0px 0px 100px 0px;
+    padding: 100px 0px 100px 0px;
+}
+
+.bottom-grey {
+    background-color: #FAFAFA;
+    padding: 0px 0px 100px 0px;
+}
+
+.gif {
+    margin: 0px 0px 100px 0px;
+}
+
+/* Atmosphere */
+
+.red {
+    background-color: #FC1E46;
+}
+
+.intro-red {
+    padding: 50px 0;
+    background-color: #FC1E46;
+}
+
+.proj-callout {
+    margin-bottom: 100px;
+}
+
+.demo {
+    margin-bottom: 100px;
+}
+
+.product {
+    padding: 100px 0px;
+    margin-bottom: 100px;
+}
+
+.product img {
+    margin-bottom: 25px;
+}
+
+.product p, .product h5 {
+    color: white;
+}
+
+/* Moogfest */
+
+.black {
+    background-color: #282828; 
+}
+
+.black img {
+    margin: 50px 0px;
+}
+
+/* Rosy */
+
+.light-rosy {
+    background-color: #FFFBFC;
+    margin-bottom: 0px;
+    padding: 50px 0px;
+}
+
+.rosy {
+    background-color: #FFF3F8;
+    margin-bottom: 0px;
+}
+
+.rosy.cover {
+    background-color: #FFF3F8;
+    margin-bottom: 0px;
+    padding: 100px 0px;
+}
+   
+/* Footer */
+
+footer {
+    padding: 40px 0px;
+}  
+
+footer a {
+    font-size: 12pt;
+    color: #282828;
+}
+
+footer a:hover {
+    color: lightgray;
+    transition: color .5s ease-in-out;
+}
+
+.prev {
+    margin-left: 40px;    
+} 
+    
+.next {
+    display: inline;
+    float: right;
+    margin-right: 40px;
+}
+
+/* About Page */
+
+h4 {
+    margin: 0;
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.about p {
+    padding: 0px 15px;
+    font-size: 16pt;
+}
+
+.about a {
+    text-decoration: underline;
+    color: black;
+}
+
+.about a:hover {
+    color: gray;
+    transition: color .2s ease-in-out;
+}
+
+.credits {
+    margin-top: 25px;
+}  
+
+.skills ul, .experience ul {
+    padding: 0;
+}
+
+.skills ul li {
+    padding: 0;
+    margin-bottom: 12px;
+}
+
+.experience ul li{
+    margin-bottom: 0px;
+}
+
+.experience ul li:nth-child(2n){
+    color: gray;
+    font-size: 10pt;
+    padding: 0;
+    margin: 5px 0px 20px 0px;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+
+/* --- Tablet Styles --- */
+
+@media only screen and (min-width: 40em){
+
+/* Home Page */
+
+main {
+    margin: 0px 50px;
+}    
+    
+.home {
+    position: fixed;
+    left: 50px;
+    top: 45px;
+}    
+  
+nav {
+    display: block;
+    padding: 50px 0px;
+}    
+        
+nav ul li {
+    position: fixed;
+    right: 50px;
+    top: 50px;
+} 
+    
+/* Project Pages */
+   
+h1 {
+    font-size: 26pt;
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+}    
+    
+.heading {
+    padding: 0;
+    margin-top: 100px;
+} 
+    
+.proj-intro p {
+    margin-top: 0px; 
+} 
+     
+/* Atmosphere */
+
+.red {
+    background-color: #FC1E46;
+}
+
+.intro-red {
+    padding: 100px 0;
+    background-color: #FC1E46;
+}
+
+.proj-callout {
+    margin-bottom: 100px;
+}
+
+.demo {
+    margin-bottom: 100px;
+}
+
+.product {
+    padding: 100px 0px;
+    margin-bottom: 100px;
+}
+
+.product img {
+    margin-bottom: 25px;
+}
+
+.product p {
+    color: white;
+}    
+      
+.prev {
+    margin-left: 50px;    
+} 
+    
+.next {
+    margin-right: 50px;
+}
+     
+/* About Page */
+  
+h4 {
+    font-size: 20pt;
+}    
+    
+.about p {
+    font-size: 30pt;
+    line-height: 60px;
+    margin-top: 5px;
+}
+      
+.skills ul, .experience ul {
+    font-size: 16pt;
+}
+
+.skills ul li {
+    padding: 0;
+    margin-bottom: 12px;
+}
+
+.experience ul li{
+    margin-bottom: 0px;
+}
+
+.experience ul li:nth-child(2n){
+    color: gray;
+    font-size: 12pt;
+}   
+    
+}
+ 
+/* --- Desktop Styles --- */
+
+@media only screen and (min-width: 64em){
+
+/* Home Page */
+      
+body#home-page, html#home-page {
+    overflow: hidden;
+}    
+    
+main {
+    margin: 0px;
+}     
+   
+.home {
+    left: 40px;
+    top: 40px;
+} 
+    
+nav {
+    padding: 0px;
+}     
+    
+nav ul li {;
+    right: 40px;
+    top: 40px;
+} 
+    
+.proj {
+    position: fixed;
+    width: 75%;
+    height: 100vh;
+    right: 0;
+    top: 0;
+}
+    
+.proj-1, .proj-2, .proj-3, .proj-4 {
+    position: relative;
+    padding: 0;
+    height: 100%;
+}  
+        
+.proj-2 {
+    display: none;
+} 
+    
+.proj-3 {
+    display: none;
+}
+    
+.proj-4 {
+    display: none;
+}
+   
+.proj img {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}    
+    
+.proj-1 img {
+    width: 90%;
+}    
+    
+.proj-2 img {
+    width: 60%;
+}
+    
+.proj-4 img {
+    width: 70%;
+}
+    
+.proj-3 img {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    transform: translateY(-50%);
+}
+    
+.info {
+    width: 25%;
+    display: block;
+    margin-bottom: 35px;
+    padding: 0;
+}  
+          
+.info ul {
+    font-size: 17pt;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    float: none;
+    color: lightgray;
+    transition: color 0.5s ease-in-out;
+}  
+
+.info ul li a {
+    transition: color 0.5s ease-in-out;
+    color: lightgray;
+}
+
+.info-1 {
+    margin-top: 175px;
+}      
+    
+.info-1 ul li, .info-1 ul li a {
+    color: black;
+} 
+     
+.proj-num {
+    font-size: 10pt;
+    transition: color 0.5s ease-in-out;
+    margin-left: 40px;
+    margin-right: 30px;
+    width: 25px;
+}    
+      
+.proj-line {
+    position: fixed;
+    margin-top:-10px;
+    left: 22%;
+    z-index: 100;
+    width: 0%;
+}  
+    
+.contact {
+    position: absolute;
+    margin: 0;
+} 
+    
+.contact ul {
+    text-align: left;
+    color: lightgray;
+}    
+    
+.contact ul li {
+    font-size: 10pt;
+}
+    
+.contact ul li a {
+    color: lightgray;
+}
+      
+/* Project Pages */
+      
+h2 {
+    color: black;
+}    
+    
+.heading {
+    margin: 150px 0px;
+}
+     
+.proj-intro {
+    margin-bottom: 40px;
+}
+  
+.bottom {
+    padding-bottom: 150px;
+}    
+    
+/* Wanze Song */    
+    
+.grey {
+    margin: 0;
+    padding: 0;
+}    
+  
+.grey.top {
+    padding-top: 150px;
+    padding-bottom: 0px;
+} 
+    
+.grey {
+    padding: 150px 0px 0px 0px;
+    margin: 0;
+}
+    
+.gif {
+    margin: 0px 0px 150px 0px;
+}
+    
+.intro-grey {
+    margin-bottom: 150px;
+}
+
+.bottom-grey {
+    padding: 150px 0px;
+} 
+
+/* Atmosphere */       
+   
+.linebreak {
+    height: 1px;
+    background-color: lightgray;
+    margin: 0px auto 150px;
+    width: 10%;
+}    
+    
+h5 {
+    font-weight: 400;
+    text-align: left;
+}    
+  
+.intro-red {
+    margin-bottom: 150px;
+}    
+    
+.red {
+    padding: 150px 0px;
+    margin: 0;
+}   
+    
+.full {
+    padding: 30vh 0;
+    margin: 0;
+}  
+    
+.product {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+    
+.push {
+    margin-bottom: 50px;
+}
+     
+.proj-callout {
+    margin-bottom: -0px;
+}    
+    
+.proj-callout p {
+    font-size: 18pt;
+    line-height: 40px;
+}
+    
+.demo p {
+    text-align: left;
+}
+    
+.demo.last {
+    margin-bottom: 150px;
+}
+    
+    .screen {
+        margin-bottom: 200px;
+    }
+    
+/* Moogfest */    
+    
+.black {
+    padding: 150px 0px 150px 0px;
+}   
+    
+.moog {
+    padding: 150px 0px;
+    margin: 0;
+}    
+    
+/* Rosy */
+      
+.light-rosy {
+    padding: 150px 0px;
+}    
+    
+.proj-callout {
+    padding: 20px 0px 150px 0px;
+}    
+        
+/* Footer */
+    
+.prev {
+    margin-left: 40px;    
+} 
+    
+.next {
+    margin-right: 40px;
+}
+    
+/* About Page */
+    
+h4 {
+    font-weight: 400;
+    margin-top: 10px;
+}    
+    
+.about {
+    margin: 200px 0px;
+    padding: 0;
+}  
+    
+.about p {
+    padding: 0;
+    margin-top: 0;
+}
+    
+.credits {
+    margin-top: 0;
+}  
+    
+.skills ul, .experience ul {
+    font-size: 12pt;
+} 
+    
+.skills {
+    margin-bottom: 25px;
+}    
+       
+}
