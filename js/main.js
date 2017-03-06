@@ -1,10 +1,7 @@
 $(document).ready(function() {
     
-    $('.proj-num').addClass('animated fadeInUp');
-    $('.info ul li').addClass('animated fadeInUp');
     $('.info-1 .proj-line').addClass('extend');
-    $('.proj').addClass('animated fadeInRight');
-                  
+    
 });   
 
 if ( $(window).width() > 769) {
@@ -145,7 +142,5 @@ if ( $(window).width() > 769) {
            $(".info-3 .proj-line").addClass("descend"); 
         }
         
-    });
-        
+    });    
 };
-

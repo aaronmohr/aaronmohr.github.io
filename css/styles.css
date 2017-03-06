@@ -334,7 +334,17 @@ h5 {
 
 /* Moogfest */
 
+.moogfest-intro {
+    background-image: url(../css/../img/moogfest/moogfest-gradient-1.png);
+    background-size: cover;
+    background-position: right;
+    background-color: black;
+    padding: 100px 10px; 
+    margin-bottom: 100px;
+}
+
 .black {
+    margin: 0;
     background-color: #282828; 
 }
 
@@ -342,11 +352,16 @@ h5 {
     margin: 50px 0px;
 }
 
+
+.sub-head.black {
+    padding-bottom: 100px;
+}
+
 /* Rosy */
 
 .light-rosy {
     background-color: #FFFBFC;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     padding: 50px 0px;
 }
 
@@ -507,7 +522,7 @@ h1 {
 }
 
 .demo {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .product {
@@ -750,7 +765,11 @@ h2 {
 }
     
 .gif {
-    margin: 0px 0px 150px 0px;
+    margin: 0 0px 50px 0px;
+}
+    
+.proj-callout {
+    margin-bottom: 50px;
 }
     
 .intro-grey {
@@ -799,7 +818,7 @@ h5 {
 }    
     
 .proj-callout p {
-    font-size: 18pt;
+    font-size: 16pt;
     line-height: 40px;
 }
     
@@ -818,19 +837,34 @@ h5 {
     
 /* Moogfest */    
     
+.moogfest-intro {
+    padding: 200px 0px; 
+    margin-bottom: 100px;
+}    
+    
 .black {
-    padding: 150px 0px 150px 0px;
+    padding: 150px 0px 0px 0px;
+    margin: 0;
 }   
     
 .moog {
     padding: 150px 0px;
     margin: 0;
-}    
+} 
+
+.moog-sub {
+    margin-top: 0px;
+}
+    
+.sub-head.black {
+    padding: 0;
+}
     
 /* Rosy */
       
 .light-rosy {
     padding: 150px 0px;
+    margin-bottom: 150px;
 }    
     
 .proj-callout {
