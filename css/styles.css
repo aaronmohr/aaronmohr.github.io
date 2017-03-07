@@ -6,29 +6,6 @@ v1.0
 
 */
 
-/* Fonts */
-
-@font-face {
-  font-family: 'Neutrif Pro Light';
-  src: url('Neutrif Pro-Light.woff') format('woff');  
-  font-style:   normal;
-  font-weight:  200;
-}
-
-@font-face {
-  font-family: 'Neutrif Pro';
-  src: url('Neutrif Pro-Regular.woff') format('woff');
-  font-style:   normal;
-  font-weight:  400;
-}
-
-@font-face {
-  font-family: 'Neutrif Pro Semi Bold';
-  src: url('Neutrif Pro-SemiBold.woff') format('woff');
-  font-style:   normal;
-  font-weight:  700;
-}
-
 /* Master Styles */
 
 body, html {

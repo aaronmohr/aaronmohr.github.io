@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
     $('.info-1 .proj-line').addClass('extend');
+    $('.info ul li a').addClass('animated fadeInUp');
 
     $('.info-1').hover(function(){
     
