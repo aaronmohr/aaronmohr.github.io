@@ -6,9 +6,40 @@ v1.0
 
 */
 
+/* Fonts */
+
+@font-face {
+	font-family: 'NeutrifPro';
+	src: url('NeutrifPro-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NeutrifPro';
+	src: url('NeutrifPro-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NeutrifPro';
+	src: url('NeutrifPro-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NeutrifPro';
+	src: url('NeutrifPro-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* Master Styles */
+
 body, html {
     font-family: 'Neutrif Pro', sans-serif;
-    font-weight: 300;
     margin: 0;
     padding: 0;
     -webkit-transition: opacity 400ms;
@@ -108,6 +139,7 @@ p {
 }
 
 .info ul li a {
+    font-weight: 400;
     color: black;
 }
 
