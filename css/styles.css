@@ -9,26 +9,41 @@ v1.0
 /* Fonts */
 
 @font-face {
-    font-family: 'Neutrif Pro Light';
-    src: url('Neutrif-Pro-Light.woff') format('woff');   
-    font-style:   normal;
-    font-weight:  300;
+  font-family: 'Neutrif Pro Light';
+  src: url('Neutrif Pro-Light.eot'); /* IE9 Compat Modes */
+  src: url('Neutrif Pro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Neutrif Pro-Light.woff') format('woff'), /* Modern Browsers */
+       url('Neutrif Pro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Neutrif Pro-Light.svg#d5f1a57393fca74604325c58c2961ec4') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
 }
 
 @font-face {
-	font-family: 'Neutrif Pro';
-	src: url('NeutrifPro-Regular.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Neutrif Pro';
+  src: url('Neutrif Pro-Regular.eot'); /* IE9 Compat Modes */
+  src: url('Neutrif Pro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Neutrif Pro-Regular.woff') format('woff'), /* Modern Browsers */
+       url('Neutrif Pro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Neutrif Pro-Regular.svg#0934e45fb2d42bcdc510c25a4a51794a') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
 }
-
 
 @font-face {
-    font-family: 'Neutrif Pro Semi Bold';
-    src: url('Neutrif-Pro-SemiBold.woff') format('woff');   
-    font-style:   normal;
-    font-weight:  600;
+  font-family: 'Neutrif Pro';
+  src: url('Neutrif Pro-Regular.eot'); /* IE9 Compat Modes */
+  src: url('Neutrif Pro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Neutrif Pro-Regular.woff') format('woff'), /* Modern Browsers */
+       url('Neutrif Pro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Neutrif Pro-Regular.svg#0934e45fb2d42bcdc510c25a4a51794a') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
 }
+
 
 
 /* Master Styles */
@@ -916,7 +931,7 @@ h4 {
 }    
     
 .row.about {
-    margin: 200px 0;
+    margin: 200px 0 0px 0px;
     padding: 0;
 }    
       
