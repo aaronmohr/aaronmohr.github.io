@@ -1,11 +1,7 @@
 $(document).ready(function() {
-    
-    $('.info-1 .proj-line').addClass('extend');
-    
-});   
 
-if ( $(window).width() > 769) {
-    
+    $('.info-1 .proj-line').addClass('extend');
+
     $('.info-1').hover(function(){
     
         $(".info-1 ul li").css( "color", "black" );
@@ -142,5 +138,5 @@ if ( $(window).width() > 769) {
            $(".info-3 .proj-line").addClass("descend"); 
         }
         
-    });    
-};
+    });
+});

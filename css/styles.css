@@ -487,7 +487,11 @@ h1 {
     font-size: 26pt;
     margin: 0px 0px 15px 0px;
     padding: 0px;
-}    
+} 
+    
+h5 {
+    margin: 0px;
+}
     
 .heading {
     padding: 0;
