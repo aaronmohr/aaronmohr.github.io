@@ -8,6 +8,7 @@ v1.0
 
 body, html {
     font-family: 'Neutrif Pro', sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     -webkit-transition: opacity 400ms;
@@ -42,7 +43,7 @@ nav ul {
     margin: 0;
     padding: 0;
     font-size: 12pt;
-    font-weight: 400;
+    font-weight: 300;
     z-index: 100;
 }
 
@@ -164,13 +165,13 @@ h1 {
 
 h2 {
     font-size: 14pt;
-    font-weight: 400;
+    font-weight: 300;
     color: #8C8C8C;
 }
 
 h3 {
     font-size: 12pt;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     color: gray;
 }
