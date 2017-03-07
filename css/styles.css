@@ -9,32 +9,27 @@ v1.0
 /* Fonts */
 
 @font-face {
-	font-family: 'NeutrifPro';
-	src: url('NeutrifPro-SemiBold.woff') format('woff');
-	font-weight: 600;
-	font-style: normal;
+    font-family: 'Neutrif Pro Light';
+    src: url('Neutrif-Pro-Light.woff') format('woff');   
+    font-style:   normal;
+    font-weight:  300;
 }
 
 @font-face {
-	font-family: 'NeutrifPro';
+	font-family: 'Neutrif Pro';
 	src: url('NeutrifPro-Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
-@font-face {
-	font-family: 'NeutrifPro';
-	src: url('NeutrifPro-Light.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
-}
 
 @font-face {
-	font-family: 'NeutrifPro';
-	src: url('NeutrifPro-Medium.woff') format('woff');
-	font-weight: 500;
-	font-style: normal;
+    font-family: 'Neutrif Pro Semi Bold';
+    src: url('Neutrif-Pro-SemiBold.woff') format('woff');   
+    font-style:   normal;
+    font-weight:  600;
 }
+
 
 /* Master Styles */
 
@@ -74,7 +69,6 @@ nav ul {
     margin: 0;
     padding: 0;
     font-size: 12pt;
-    font-weight: 400;
     z-index: 100;
 }
 
@@ -139,7 +133,7 @@ p {
 }
 
 .info ul li a {
-    font-weight: 400;
+    font-family: 'Neutrif Pro Light'
     color: black;
 }
 
@@ -192,7 +186,6 @@ h1 {
     margin: 25px 0 15px 0px;
     padding: 0;
     font-size: 24pt;
-    font-weight: 500;
 }
 
 h2 {
@@ -211,7 +204,6 @@ h3 {
 h5 {
     font-size: 18pt;
     text-align: center;
-    font-weight: 500;
     padding: 0;
     margin: 40px 0px 0px 0px;
 }
@@ -710,7 +702,6 @@ nav ul li {;
           
 .info ul {
     font-size: 17pt;
-    font-weight: 400;
     padding: 0;
     margin: 0;
     display: inline-block;
@@ -827,7 +818,6 @@ h2 {
 }    
     
 h5 {
-    font-weight: 400;
     text-align: left;
 }    
   
@@ -921,7 +911,7 @@ h5 {
 /* About Page */
     
 h4 {
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 10px;
 }    
     
