@@ -704,6 +704,7 @@ nav ul li {
 .proj-line {
     position: fixed;
     left: 22%;
+    transform: translateY(-10px);
     z-index: 100;
     width: 0%;
 }  
