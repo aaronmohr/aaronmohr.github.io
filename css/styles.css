@@ -592,6 +592,7 @@ main {
     left: 40px;
     top: 40px;
     font-size: 12pt;
+    z-index: 100;
 } 
     
 nav {
