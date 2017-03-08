@@ -1,19 +1,27 @@
 $(document).ready(function() {
 
-    $('.info-1 .proj-line').addClass('extend');
-    $('.info ul li a').addClass('animated fadeInUp');
+    if($(window).width() > 1024){
+        
+        $('.info-1 .proj-line').addClass('extend');
+        $('.info ul li a').addClass('animated fadeInUp');
+    }
+    
+    else {
+        $('.proj').removeClass('animated fadeInRight');
+        $('.proj').addClass('animated fadeIn');
+    }
     
     $('.info-1').hover(function(){
         
         if($(window).width() > 1024){
 
-            $(".info-1 ul li").css( "color", "black" );
-            $(".info-1 ul li a").css( "color", "black" );
+            $(".info-1 ul li").css("color", "black");
+            $(".info-1 ul li a").css("color", "black");
             $(".info-1 .proj-line").addClass("extend");
             $(".info-1 .proj-line").removeClass("descend");
             $(".proj-1").css("display","block");
 
-            $(".info-2 ul li").css( "color", "lightgrey" );
+            $(".info-2 ul li").css("color", "lightgrey");
             $(".info-2 ul li a").css( "color", "lightgrey");
             $(".proj-2").css("display","none");
 
