@@ -25,7 +25,7 @@ a {
     position: absolute;
     top: 35px;
     left: 35px;
-    font-size: 12pt;
+    font-size: 14pt;
 }
 
 nav {
@@ -43,7 +43,7 @@ nav ul {
     top: 35px;
     margin: 0;
     padding: 0;
-    font-size: 12pt;
+    font-size: 14pt;
     z-index: 100;
 }
 
@@ -62,7 +62,7 @@ img {
 } 
 
 p {
-    font-size: 13pt;
+    font-size: 14pt;
     line-height: 32px; 
 }
 
@@ -101,6 +101,7 @@ p {
 .info ul {
     margin: 25px 0px;
     padding: 0;
+    font-size: 16pt;
 }
 
 .info ul li {
@@ -108,7 +109,6 @@ p {
 }
 
 .info ul li a {
-    font-family: 'Neutrif Pro Light'
     color: black;
 }
 
@@ -429,24 +429,21 @@ h4 {
     margin-top: 25px;
 }  
 
-.skills ul, .experience ul {
+.skills ul, .elsewhere ul {
     padding: 0;
 }
 
-.skills ul li {
+.skills ul li, .elsewhere ul li {
     padding: 0;
     margin-bottom: 12px;
 }
 
-.experience ul li{
-    margin-bottom: 0px;
+.elsewhere ul li a {
+    text-decoration: none;
 }
 
-.experience ul li:nth-child(2n){
-    color: gray;
-    font-size: 10pt;
-    padding: 0;
-    margin: 5px 0px 20px 0px;
+.elsewhere ul li a:hover {
+    color: darkgray;
 }
 
 footer {
@@ -566,23 +563,14 @@ h4 {
     margin-top: 5px;
 }
       
-.skills ul, .experience ul {
+.skills ul, .elsewhere ul {
     font-size: 16pt;
 }
 
-.skills ul li {
+.skills ul li, .elsewhere ul li {
     padding: 0;
     margin-bottom: 12px;
 }
-
-.experience ul li{
-    margin-bottom: 0px;
-}
-
-.experience ul li:nth-child(2n){
-    color: gray;
-    font-size: 12pt;
-}   
     
 }
  
@@ -603,13 +591,15 @@ main {
 .home {
     left: 40px;
     top: 40px;
+    font-size: 12pt;
 } 
     
 nav {
     padding: 0px;
 }     
     
-nav ul li {;
+nav ul li {
+    font-size: 12pt;
     right: 40px;
     top: 40px;
 } 
@@ -628,7 +618,7 @@ nav ul li {;
     height: 100%;
 }  
         
-.proj-2 {
+.proj-4 {
     display: none;
 } 
     
@@ -636,8 +626,12 @@ nav ul li {;
     display: none;
 }
     
-.proj-4 {
+.proj-2 {
     display: none;
+}
+    
+.proj-1 {
+
 }
    
 .proj img {
@@ -890,6 +884,10 @@ h4 {
     margin-top: 10px;
 }    
     
+.elsewhere h4 {
+    padding-top: 25px;
+}    
+    
 .row.about {
     margin: 200px 0 0px 0px;
     padding: 0;
@@ -905,7 +903,7 @@ h4 {
     padding: 0;
 }  
     
-.skills ul, .experience ul {
+.skills ul, .elsewhere ul {
     font-size: 12pt;
 } 
     
