@@ -2701,9 +2701,9 @@
 
 @-webkit-keyframes zoomIn {
   from {
-    opacity: 0;
-    -webkit-transform: scale3d(.3, .3, .3);
-    transform: scale3d(.3, .3, .3);
+    opacity: 1;
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
   }
 
   50% {
@@ -2713,9 +2713,9 @@
 
 @keyframes zoomIn {
   from {
-    opacity: 0;
-    -webkit-transform: scale3d(.3, .3, .3);
-    transform: scale3d(.3, .3, .3);
+    opacity: 1;
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
   }
 
   50% {
@@ -3405,41 +3405,18 @@
 }
 
 .extend {    
-    -webkit-animation: line .75s 1 forwards;
-    -moz-animation: line .75s 1 forwards;
-    -o-animation: line .75s 1 forwards;
-    animation: line .75s 1 forwards;
-    transition: width .75s ease-out;
+    -webkit-animation: line 600ms 1 forwards;
+    -moz-animation: line 600ms 1 forwards;
+    -o-animation: line 600ms 1 forwards;
+    animation: line 600ms 1 forwards;
+    transition: width 600ms ease-in-out;
 }
     
 .descend {
-    -webkit-animation: line-back .75s 1 forwards;
-    -moz-animation: line-back .75s 1 forwards;
-    -o-animation: line-back .75s 1 forwards;
-    animation: line-back .75s 1 forwards;
-    transition: width .75s ease-out;
+    -webkit-animation: line-back 600ms 1 forwards;
+    -moz-animation: line-back 600ms 1 forwards;
+    -o-animation: line-back 600ms 1 forwards;
+    animation: line-back 600ms 1 forwards;
+    transition: width 600ms ease-in-out;
 }  
 
-/* Page Transitions */
-
-.m-scene {
-
-    .scene_element {
-        animation-duration: 0.25s;
-        transition-timing-function: ease-in;
-    }
-
-    .scene_element--fadeInRight {
-        animation-name: fadeInRight;
-    }
-    
-    .scene_element--fadeIn {
-        animation-name: fadeIn;
-    }
-    
-    &.is-exiting {
-      .scene_element {
-        animation-direction: alternate-reverse;
-    }
-
-}
