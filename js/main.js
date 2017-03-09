@@ -137,6 +137,10 @@ $(document).ready(function() {
         }
 
     });
+    
+    $(window).ready(function(){
+       $("#loader").fadeOut("slow"); 
+    });
 
 });
 
