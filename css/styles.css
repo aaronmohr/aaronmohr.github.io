@@ -193,7 +193,7 @@ h5 {
 }
 
 .shadow-2 img {
-     box-shadow: 0px 0px 15px RGBA(0,0,0,.3);   
+     box-shadow: 0px 0px 15px RGBA(0,0,0,.8);   
 }
 
 .row {
@@ -358,7 +358,7 @@ h5 {
 
 .black {
     margin: 0;
-    background-color: #1e1e1e; 
+    background-color: #232323; 
 }
 
 .black img {
