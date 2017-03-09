@@ -340,7 +340,6 @@ h5 {
     font-size: 14pt;
 }
 
-
 /* Moogfest */
 
 .moogfest-intro {
@@ -402,7 +401,7 @@ footer a {
 }
 
 footer a:hover {
-    color: lightgray;
+    color: gray;
     transition: color .3s ease-in-out;
 }
 
@@ -615,7 +614,7 @@ nav {
     
 nav ul li {
     font-size: 12pt;
-    right: 50px;
+    right: 40px;
     top: 40px;
 } 
     
@@ -847,7 +846,7 @@ h5 {
     
 .sub-head {
     margin-top: 15px;
-    margin-bottom:150px;
+    margin-bottom:200px;
 }    
     
 /* Moogfest */    
