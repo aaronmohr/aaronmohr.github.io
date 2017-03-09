@@ -3,7 +3,6 @@ $(document).ready(function() {
     if($(window).width() > 1024){
         
         $('.info-1 .proj-line').addClass('extend');
-        $('.info ul li a').addClass('animated fadeInUp');
         
     }
     
