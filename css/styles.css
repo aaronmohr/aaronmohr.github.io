@@ -98,6 +98,10 @@ p {
     margin-bottom: 5px;
 }
 
+.info {
+    position: relative;
+}
+
 .info ul {
     margin: 25px 0px;
     padding: 0;
@@ -118,9 +122,9 @@ p {
 }
 
 .proj-line {
-    position: relative;
+    position: absolute;
     width: 35px;
-    margin-bottom: 15px;
+    bottom: 12px;
     height: 1px;
     background-color: black;
 }
@@ -145,7 +149,7 @@ p {
 }
 
 .proj-3 {
-    background-image: url(../img/moogfest/moogfest-gradient-4.png);
+    background-image: url(../img/moogfest/moogfest-gradient-2.png);
     background-size: cover;
     background-position: bottom;
     padding: 60px 50px; 
@@ -674,15 +678,14 @@ nav ul li {
 }
     
 .proj-3-image {
-    width: 60%;
+    width: 70%;
     position: absolute;
     top: 50%;
-    right: -3%;
+    right: -8%;
     transform: translateY(-50%);
 }
     
 .info {
-    position: relative;
     width: 25%;
     display: block;
     margin-bottom: 35px;
@@ -721,7 +724,6 @@ nav ul li {
 }    
       
 .proj-line {
-    position: absolute;
     left: 90%;
     top: 15px;
     z-index: 100;

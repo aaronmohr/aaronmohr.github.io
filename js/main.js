@@ -144,8 +144,12 @@ $(document).ready(function() {
 $(window).resize(function () {
     var viewportWidth = $(window).width();
     if (viewportWidth < 1024) {
+        $('.proj-line').removeClass('extend');
         $('.proj-1').removeClass("animated fadeInRight");
         $('.proj-1, .proj-2, .proj-3, .proj-4').css("display","block");
         $('.info ul li, .info ul li a').css("color","black");
+    }
+    else {
+        $('.info-1 .proj-line').addClass('extend');
     }
 });
